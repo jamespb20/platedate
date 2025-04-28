@@ -1,0 +1,174 @@
+.matching-window {
+    margin-top: 80px;
+    padding: 20px;
+    min-height: calc(100vh - 80px);
+}
+
+.match-card {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    max-width: 65%;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.card-img-top {
+    height: 390px;
+    object-fit: fill;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-body {
+    margin-top: 15px;
+    padding: 15px;
+    text-align: left;
+}
+
+.card-title {
+    font-size: 1.75rem;
+    color: #003366;
+}
+
+.card-subtitle {
+    color: #9dc183;
+    padding-bottom: 10px;
+}
+
+.card-footer {
+    text-align: center;
+    padding: 10px 15px;
+    background: none;
+    border-top: none;
+}
+
+.preference-section {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.preference-section:last-child {
+    border-bottom: none;
+}
+
+.preference-section strong {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 3px;
+    color: #003366;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.preference-section span {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 580;
+}
+
+.btn-modal {
+    background-color: transparent;
+    color: #b76e79;
+    font-size: 0.8rem;
+    text-decoration: underline;
+}
+
+.btn-check,
+.btn-times {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-check {
+    color: #9dc183;
+}
+
+.btn-times {
+    color: #b76e79;
+}
+
+.button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-floating {
+    background-color: #b76e79;
+    color: #fff;
+    font-size: 24px;
+    width: 56px;
+    height: 56px;
+    border-radius: 28px;
+    margin-bottom: 10px;
+}
+
+.btn-floating:hover {
+    background-color: darken(#b76e79, 10%);
+}
+
+.button-overlay {
+    position: absolute;
+    top: 270px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.profile-btn {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid white;
+    background: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-btn.reject {
+    color: #f5f5dc;
+    background-color: #800020;
+}
+
+.profile-btn.like {
+    color: #9dc183;
+    background: #f5f5dc;
+}
+
+.profile-btn.maybe {
+    color: #007bff;
+    background: #000;
+}
+
+.pref-bubble {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background: #f4f4f4;
+}
+
+.report-section {
+    cursor: pointer;
+}
+
+.text-blue {
+    color: #003366;
+}
+
+.bg-light-mint {
+    background-color: #f5fffa;
+}

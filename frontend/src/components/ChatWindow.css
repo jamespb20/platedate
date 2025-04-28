@@ -1,0 +1,107 @@
+.chat-modal-content {
+    color: #003366;
+}
+
+.chat-modal-header {
+    background-color: #003366;
+    color: #f5f5dc;
+    border-bottom: 1px solid #b76e79;
+}
+
+.chat-message-them {
+    margin-right: auto;
+    margin-left: 20px;
+    max-width: 50%;
+    background-color: #800020;
+    color: #f5f5dc;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #003366;
+}
+
+.chat-message-you {
+    margin-left: auto;
+    margin-right: 20px;
+    max-width: 50%;
+    background-color: #9dc183;
+    color: #f5f5dc;
+    padding: 8px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #b76e79;
+}
+
+.message-sender {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.message-text {
+    padding: 5px 0;
+}
+
+.invite-button {
+    background-color: #9dc183;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffff;
+    margin-top: 10px;
+}
+
+.date-msg {
+    background-color: #d4af37;
+    color: #003366;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 51, 102, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date-msg-text {
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.date-msg-rating {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: #f8de7e;
+    margin-right: 2px;
+}
+
+.date-msg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.8) 50%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    animation: shine 2s infinite;
+}
+
+@keyframes shine {
+    to {
+        left: 150%;
+    }
+}
+
+.overlay-modal {
+    z-index: 4000;
+}

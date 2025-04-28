@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is PlateDate?",
+        "answer": "PlateDate is a new dating app that facilitates user matching based on shared food preferences."
+    },
+    {
+        "question": "How does it work?",
+        "answer": "During signup, you will enter your food preferences and interests. This information is then used to match you with compatible users."
+    },
+    {
+        "question": "Can I see someone's food preferences before I match with them?",
+        "answer": "Absolutely! You can browse profiles and view a user's food preferences alongside their hobbies and interests before initiating a match."
+    },
+    {
+        "question": "Can I search for users based on food preferences?",
+        "answer": "Yes, you can search for specific users based on a variety of criteria, including food preferences."
+    },
+    {
+        "question": "How does the chat function work?",
+        "answer": "Once you match with a user, you can message them directly within the PlateDate platform."
+    }
+]

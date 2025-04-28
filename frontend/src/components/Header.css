@@ -1,0 +1,56 @@
+.custom-navbar {
+    background-color: #003366;
+    padding: 0 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .navbar-brand {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0;
+    color: #f5f5dc;
+}
+
+.custom-navbar .navbar-brand img {
+    margin-right: 0.5rem;
+}
+
+.custom-navbar .nav-link {
+    font-family: "Nunito", sans-serif;
+    color: #b1b1b1;
+    transition: color 0.2s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:focus {
+    color: #f5f5dc;
+}
+
+.custom-navbar .navbar-toggler {
+    border: none;
+    padding: 0.5rem 0.75rem;
+}
+
+.custom-navbar .nav-dropdown,
+.custom-navbar .dropdown-menu {
+    background-color: #b76e79;
+    border: none;
+}
+
+.custom-navbar .dropdown-item {
+    color: #f5f5dc;
+}
+
+.custom-navbar .dropdown-item:hover {
+    background-color: #800020;
+    color: #f5f5dc;
+}
+
+@media (max-width: 991px) {
+    .custom-navbar .navbar-collapse {
+        background-color: #003366;
+    }
+}

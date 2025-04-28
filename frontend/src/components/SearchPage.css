@@ -1,0 +1,22 @@
+.container {
+    max-width: 960px;
+}
+
+.profile-card {
+    background: #fefefe;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.scrollable-div {
+    max-height: 80vh;
+    overflow-y: auto;
+}
